@@ -1,0 +1,74 @@
+/* section id="top">
+<div id="purple-rectangle"></div>
+<div id="green-rectangle"></div>
+<div id="sky-blue-circle"></div>
+</section>
+<section id="mid">
+<div id="big-yellow-rectangle"></div>
+</section>
+<section id="bottom">
+HELLO FRIENDS
+</section> */
+
+#top {
+  height: 25vh;
+  width: 95vw;
+  box-sizing: border-box;
+  border: thick solid black;
+  margin: 20px auto;
+  padding: 5px 0px 10px 10px;
+  
+}
+
+#purple-rectangle {
+  background-color: purple;
+  height: 70%;
+  width: 40px;
+  display: inline-block;
+  margin: 0px 0px 5px 0px;
+}
+
+#green-rectangle {
+  background-color: green;
+  height: 90%;
+  width: 40%;
+  margin: 0px 40px 5px 40px;
+  display: inline-block;
+}
+
+#sky-blue-circle {
+  background-color: skyblue;
+  height: 21vh;
+  width: 21vh;
+  border-radius: 50%;
+  display: inline-block;
+  margin: auto 0px;
+}
+
+#mid {
+  height: 30vh;
+  width: 95vw;
+  box-sizing: border-box;
+  border: 4px dotted black;
+  margin: 20px auto;
+
+}
+
+#big-yellow-rectangle {
+  background-color: palegoldenrod;
+  margin: 30px auto;
+  height: 70%;
+  width: 85%;
+  box-shadow: 8px 8px 5px rgb(39, 39, 39);
+}
+
+#bottom {
+  height: 40vh;
+  width: 50vw;
+  margin: 2vh auto 3vh auto;
+  border: thin rgb(109, 109, 109);
+  text-align: center;
+  padding: ;
+
+
+}

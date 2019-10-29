@@ -1,0 +1,43 @@
+body {
+  background-color: black;
+}
+
+header {
+  height: 15vh;
+  width: 100vw;
+  background: rgb(58, 58, 58);
+}
+
+#left {
+  height: 85vh;
+  width: 15vw;
+  background: rgb(175, 157, 157);
+  float: left;
+  
+}
+
+#mid {
+  height: 75vh;
+  width: 70vw;
+  background:whitesmoke;
+  clear:none;
+  display: inline-block;
+}
+
+#right {
+  height: 85vh;
+  width: 15vw;
+  background: rgb(175, 157, 157);
+  float: right;
+  clear: none;
+}
+
+/* 
+the footer is dumb.
+footer {
+  width: 70vw;
+  background: black;
+  clear: none;
+  float: center;
+  
+} */

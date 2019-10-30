@@ -1,0 +1,59 @@
+/* <header>
+<div id="upper-left-thing"></div>
+</header>
+<div id="content"></div>
+<div id="content2"></div>
+<div id="content3"></div>
+<div id="content4"></div>
+<footer></footer> */
+
+.row {
+  height: 15vh;
+  width: 100vw;
+}
+header {
+ background-color: rgb(160, 160, 160);
+
+}
+
+#upper-left-thing {
+  height: 80px;
+  width: 80px;
+  float: left;
+  background-color: rgb(39, 79, 209);
+  margin: 10px 25px;
+
+}
+
+#content {
+  height: 25vh;
+  width: 100vw;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 50px;
+}
+
+span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: grey;
+  justify-content: left;
+}
+
+#content2 {
+  background-color: rgb(39, 79, 209)
+  
+}
+
+#content3 {
+  background-color: rgb(58, 175, 150);
+  
+}
+
+#content4 {
+  background-color: rgb(75, 189, 60)
+}
+
+footer {
+  background-color: rgb(199, 218, 32)
+}

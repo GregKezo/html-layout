@@ -63,12 +63,20 @@ HELLO FRIENDS
 }
 
 #bottom {
-  height: 40vh;
+  height: 30vh;
   width: 50vw;
   margin: 2vh auto 3vh auto;
-  border: thin rgb(109, 109, 109);
+  border: thin solid rgb(199, 199, 199);
   text-align: center;
-  padding: ;
+  box-shadow: 5px 5px 5px rgb(165, 165, 165);
+  padding: 80px;
+  box-sizing: border-box;
+  
+}
 
-
+h1 {
+  color: rgb(78, 6, 78);
+  letter-spacing: 10px;
+  font-size: 25px;
+  font-weight: bold;
 }
